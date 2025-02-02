@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9; 
+    color: #333;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.header {
+    background: #000; 
+    color: #fff;
+    padding: 15px 0;
+}
+
+.header img {
+    max-height: 60px; 
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px; 
+}
+
+.nav ul li {
+    position: relative; 
+}
+
+.nav ul li a {
+    color: #fff; 
+    text-decoration: none;
+    font-weight: 500;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav ul li a:hover {
+    color:#b195bf;
+    background-color: #000;
+}
+
+.nav ul li a.active {
+    color:#b195bf;
+    background-color: #000;
+}
+
+.main-content {
+    text-align: center;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.main-content h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.main-content p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.footer {
+    background-color: #000; 
+    color: #fff;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 40px;
+
+    
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px 0;
+    gap: 20px;
+}
+
+.footer-section {
+    max-width: 300px;
+}
+
+.footer-section h3 {
+    color: #b195bf; 
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+.footer-section p,
+.footer-section ul {
+    margin: 10px 0;
+    font-size: 0.9em;
+    color: #ccc;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #bbb;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+    color: #b195bf;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-icon {
+    color: #ccc;
+    font-size: 1.5em;
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #b195bf;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 0.8em;
+    background-color: #fff; 
+    color: #000;
+    padding: 10px 0;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .nav ul {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+h1 {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+
+/* The log in */
+
+
+
